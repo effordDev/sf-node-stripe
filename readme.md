@@ -42,7 +42,12 @@ To configure your webhook, navigate to the [Stripe Developer Dashboard](https://
 
 The Hosted Endpoint URL will be your server url + ```/webhook```. [See the docs](https://stripe.com/docs/api/webhook_endpoints)
 
-## Environment Variables
+### Environment Variables
+
+ENC_KEY, IV should be 128 bits (I used https://www.allkeysgenerator.com/Random/Security-Encryption-Key-Generator.aspx)
+
+SECRET_HASH should be the hex value of the plain text value hashed.
+
      STRIPE_PRIVATE_KEY
      WEBHOOK_SECRET
 
