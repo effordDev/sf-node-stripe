@@ -1,5 +1,7 @@
 #sf-node-stripe
 
+[Demo](https://github.com/effordDev/sf-node-stripe/assets/36901822/04e024cb-cf3e-4538-9b93-aabfef469398)
+
 Provides a jump start to implementing [Stripe](https://stripe.com/docs/api) into salesforce. Contains a single endpoint ```/payment``` that will issue a PCI Compliant url for you to be redirected to. Also contains to a webhook endpoint ```/webhook``` to perform any other actions you need once the payment is complete.
 
 Currently the webhook is configured for the event ```checkout.session.completed``` [See Docs](https://stripe.com/docs/api/events/types)
