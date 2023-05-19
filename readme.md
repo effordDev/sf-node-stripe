@@ -67,4 +67,4 @@ SECRET_HASH should be the hex value of the plain text value hashed.
 
      ALLOWED_01
 ---
-Written with my cat🐱‍👤 [tokyo](www.tokyotech.us)
+Written with my cat🐱‍👤 [tokyo](https://www.tokyotech.us)
