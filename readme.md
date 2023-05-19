@@ -6,7 +6,7 @@ Provides a jump start to implementing [Stripe](https://stripe.com/docs/api) into
 
 Currently the webhook is configured for the event ```checkout.session.completed``` [See Docs](https://stripe.com/docs/api/events/types)
 
-##Getting Started
+## Getting Started
 
 For the Salesforce side [click here](https://github.com/effordDev/sf-stripe)
 
@@ -38,7 +38,7 @@ const session = await stripe.checkout.sessions.create({
 })
 ```
 
-###Webhooks
+### Webhooks
 
 To configure your webhook, navigate to the [Stripe Developer Dashboard](https://dashboard.stripe.com/test/developers) and select Webhooks.
 
@@ -66,3 +66,5 @@ SECRET_HASH should be the hex value of the plain text value hashed.
      ReturnUrl
 
      ALLOWED_01
+---
+Written with my cat🐱‍👤 [tokyo](www.tokyotech.us)
