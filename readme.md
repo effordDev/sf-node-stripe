@@ -1,4 +1,4 @@
-#sf-node-stripe
+# sf-node-stripe
 
 [Demo](https://github.com/effordDev/sf-node-stripe/assets/36901822/04e024cb-cf3e-4538-9b93-aabfef469398)
 
