@@ -26,9 +26,9 @@ app.post("/payment", express.json(), validate, async (req, res) => {
 					price_data: {
 						currency: "usd",
 						product_data: {
-							name: "Companies To Watch Application",
+							name: "NAME HOLDER",
 						},
-						unit_amount: 9900,
+						unit_amount: 1,
 					},
 					quantity: 1,
 				},
