@@ -49,6 +49,8 @@ The Hosted Endpoint URL will be your server url + ```/webhook```. [See the docs]
 ENC_KEY, IV should be 128 bits (I used https://www.allkeysgenerator.com/Random/Security-Encryption-Key-Generator.aspx)
 
 SECRET_HASH should be the hex value of the plain text value hashed.
+sfOrgId should be 18 digit.
+ALLOWED_01 most likely you want My Domain URL unless in commmunity.
 
      STRIPE_PRIVATE_KEY
      WEBHOOK_SECRET
