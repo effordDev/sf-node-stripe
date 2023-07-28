@@ -73,16 +73,16 @@ app.post(
 					sfToken
 				);
 
-				const record = {
-					Id: event.data.object.metadata.recordId,
-					Status__c: "In Progress",
-				};
+				// const record = {
+				// 	Id: event.data.object.metadata.recordId,
+				// 	Status__c: "In Progress",
+				// };
 
-				const recordResult = await sfUpdateSobject(
-					connectionResult.conn,
-					"Application__c",
-					record
-				);
+				// const recordResult = await sfUpdateSobject(
+				// 	connectionResult.conn,
+				// 	"Application__c",
+				// 	record
+				// );
 
 				console.log(recordResult);
 			}
